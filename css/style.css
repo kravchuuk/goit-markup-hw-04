@@ -305,9 +305,9 @@ ul {
 .button-secondary:hover,
 .button-secondary:focus {
     border-color: transparent ;
-    font-family: 'Roboto', sans-serif;
     color: var(--color-cloud);
     background-color: var(--color-ocean);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .section .title-txt {
@@ -390,7 +390,6 @@ ul {
     font-family: 'Raleway', sans-serif;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left:156px  ;
 }
 
 
@@ -470,7 +469,7 @@ ul {
 .hero {
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(url(../images/Dark-bg.jpg)),url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover ;
@@ -727,6 +726,18 @@ ul {
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
+
+
+.customers-link:hover,
+.customers-link:focus{
+    fill: var(--color-ocean);
+    border-color: var(--color-ocean);
+}
+.svg-customers:hover,
+.svg-customers:focus{
+    fill: var(--color-ocean);
+}
+
 
 .customers-icon{
     gap: 24px;
