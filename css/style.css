@@ -259,8 +259,6 @@ ul {
     margin-bottom: 8px;
 }
 
-.list .title {}
-
 .list .title-txt {
     color: var(--color-slate);
     line-height: 24px;
@@ -725,6 +723,7 @@ ul {
     height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    fill: var(--color-light-slate);
 }
 
 
@@ -744,6 +743,11 @@ ul {
 }
 .social-media{
     color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+
 }
 
 .social-media-list {
